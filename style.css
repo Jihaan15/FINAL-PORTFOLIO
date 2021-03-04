@@ -1,0 +1,29 @@
+h1{
+    color:#f03d3d;
+}
+.games{
+    background-color:#008800;
+}
+.game{
+
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    flex-direction:column;
+    justify-content: first baseline;
+    position:relative;
+}
+.game p{
+    position:absolute;
+    top:50%;
+    transform: translate(-7%,-7%);
+}
+.game:hover p{
+    opacity: 1;
+
+}
+.game:hover img{
+    opacity: 0.33;
+}
+
